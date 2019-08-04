@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Host The Website</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_blog_post">Blog Post</string>
+    <string name="title_more">Dashboard</string>
+    <string name="title_tickets">Tickets</string>
+    <string name="title_invoices">Invoices</string>
+    <string name="text_splash">Next Level SSD Hosting Solutions</string>
+    <string name="title_no_internet_connection">Arrgs!!! No Internet Connection!!!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_see_more">See More</string>
+    <string name="title_buy_now">Buy Now</string>
+    <string name="title_create_a_ticket">Create a ticket</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_check">Check</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tirget_a_quote">Get A Quote</string>
+
+
+</resources>

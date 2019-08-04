@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".dashboardfragments.childfragments.AppDevFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:padding="0dp"
+                        android:id="@+id/static_app"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center|top">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textAlignment="center"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:text="Static App"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorTextWhite"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5 Static layout"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Professional Look"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AdMob Setup"
+                            android:paddingBottom="2dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:text="Delivery Time: 2 Days"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:paddingBottom="0dp"
+                            android:gravity="center"
+                            android:textSize="10sp"
+                            android:layout_gravity="bottom"
+                            android:text="Get A Quote"
+                            android:textStyle="bold"
+                            android:background="@color/colorPrimary"
+                            android:padding="5dp"
+                            android:textColor="@color/colorTextWhite"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:padding="0dp"
+                        android:id="@+id/dynamic_app"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center|top">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textAlignment="center"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:text="Dynamic App"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorTextWhite"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dynamic Layouts"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Professional Look"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AdMob Setup"
+                            android:paddingBottom="2dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:text="Delivery Time: 7 Days"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:paddingBottom="0dp"
+                            android:gravity="center"
+                            android:textSize="10sp"
+                            android:layout_gravity="bottom"
+                            android:text="Get A Quote"
+                            android:textStyle="bold"
+                            android:background="@color/colorPrimary"
+                            android:padding="5dp"
+                            android:textColor="@color/colorTextWhite"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:padding="0dp"
+                        android:id="@+id/professional_app"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center|top">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textAlignment="center"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:text="Professional App"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorTextWhite"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Handling Large Scale Data"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Professional Look"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:text="Designed Logo for the App"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AdMob Setup"
+                            android:paddingBottom="2dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:text="API Setup"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:textAlignment="center"
+                            android:text="Delivery Time: 25 Days"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/colorPrimary"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:paddingBottom="0dp"
+                            android:gravity="center"
+                            android:textSize="10sp"
+                            android:layout_gravity="bottom"
+                            android:text="Get A Quote"
+                            android:textStyle="bold"
+                            android:background="@color/colorPrimary"
+                            android:padding="5dp"
+                            android:textColor="@color/colorTextWhite"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
